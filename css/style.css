@@ -236,7 +236,7 @@ section {
     outline: none;
     border-color: #28a745;
     background-color: #f5f5f5;
-    box-shadow: 0 0 0 0.2rem #28a745;
+    box-shadow: 0 0 0 0.2rem #9fa728;
 }
 
 .login-button-submit {
@@ -347,7 +347,7 @@ section {
     gap: 10px;
 }
 
-.signup-full-name {
+.signup-data {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -360,10 +360,10 @@ section {
     grid-column: span 2;
 }
 
-.signup-full-name input[type="text"],
-.signup-full-name input[type="number"],
-.signup-full-name input[type="date"],
-.signup-full-name input[type="password"] {
+.signup-data input[type="text"],
+.signup-data input[type="number"],
+.signup-data input[type="date"],
+.signup-data input[type="password"] {
     width: 100%;
     padding: 10px;
     border: 1px solid #28a745;
@@ -374,6 +374,21 @@ section {
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
 }
+
+
+.signup-first-name input:focus,
+.signup-last-name input:focus, 
+.signup-birthdate input:focus,
+.signup-nif input:focus, 
+.signup-email input:focus, 
+.signup-password input:focus, 
+.signup-confirm-password input:focus {
+    outline: none;
+    border-color: #28a745;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 0 0.2rem #28a745;
+}
+
 
 .signup-gender > div {
     display: flex;

@@ -16,7 +16,7 @@
     }
 
     .login-croma-logo img {
-        content: url("img/Croma_logo_5.png");
+        content: url("../img/Croma_logo_5.png");
         max-width: auto;
         height: 20vh;
         object-fit: contain;
