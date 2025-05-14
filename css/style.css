@@ -8,7 +8,6 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-/* Header */
 .header {
     background-color: #28a745;
 }
@@ -21,8 +20,7 @@ body {
     min-height: calc(100vh - 100px);
     padding: 0 20px;
 }
-  
-/* Container do Header */
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -34,7 +32,6 @@ body {
     position: relative;
 }
  
-/* Logo */
 .logo {
     display: flex;
     align-items: center;
@@ -45,8 +42,7 @@ body {
     height: 40px;
     object-fit: contain;
 }
-  
-/* Barra de pesquisa */
+
 .search-container {
     display: flex;
     align-items: center;
@@ -81,7 +77,6 @@ body {
     font-weight: bold;
 }
 
-/* Icons */
 .header-icons {
     display: flex;
     align-items: center;
